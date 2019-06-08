@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "VCR_Mono";
+    src: url("VCR_OSD_MONO_1.001.ttf")
+}
+h1 {
+    font-family: VCR_Mono;
+    color: #000000;
+    font-size: 35px;
+}
+h2 {
+    font-family: VCR_Mono;
+    color: #000000;
+    font-size: 18px;
+}
+h3 {
+    font-family: VCR_Mono;
+    color: #000000;
+    font-size: 25px;
+}
+h4 {
+    font-family: VCR_Mono;
+    color: #ff6a00;
+    font-size: 50px;
+}
+@keyframes scroll {
+	100% {
+		background-position: 0px -3000px;
+	}
+}
+@-webkit-keyframes scroll {
+	100% {
+		background-position: 0px -3000px;
+	}
+}
+@-moz-keyframes scroll {
+	100% {
+		background-position: 0px -3000px;
+	}
+}
+body {
+    background-image: url('bruh-banner.png');
+    background-repeat: scroll;
+    background-attachment: fixed;
+    background-size: cover;
+	animation: scroll 50s linear infinite;
+	-webkit-animation: scroll 50s linear infinite;
+	-moz-animation: scroll 50s linear infinite;
+    
+}
+.border {
+     text-align: center;
+     border-style: dashed;
+     border-width: 1px;
+     border-color: #540b00;
+     max-width: 750px;
+}
+
+a:link, a:active {
+text-decoration: none;
+color: #f21a1a
+}
+a:visited, a:hover {
+text-decoration: none;
+color: #c60b0b;
+}
