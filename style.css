@@ -42,6 +42,11 @@ h4 {
     color: #ff1100;
     font-size: 25px;
 }
+h5 {
+    font-family: VCR_Mono;
+    color: #ff1100;
+    font-size: 20px;
+}
 body {
     background: url(BG.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -72,10 +77,17 @@ body {
      border-color: #ffffff;
      max-width: 1000px;
 }
+.b_border {
+    text-align: center;
+    border-style: inset;
+    border-width: 3px;
+    border-color: #ffffff;
+    max-width: 700px;
+}
 
 a:link, a:active {
 text-decoration: none;
-color: #f21a1a
+color: #970707
 }
 a:visited, a:hover {
 text-decoration: none;
