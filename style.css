@@ -45,6 +45,12 @@ h5 {
     font-family: VCR_Mono;
     color: #ff1100;
     font-size: 20px;
+
+}
+h6 {
+    font-family: VCR_Mono;
+    color: #ff1100;
+    font-size: 15px;
 }
 body {
     background: url(BG.gif) no-repeat center center fixed;
@@ -81,7 +87,7 @@ body {
     border-style: inset;
     border-width: 3px;
     border-color: #ffffff;
-    max-width: 700px;
+    max-width: 645px;
 }
 
 a:link, a:active {
