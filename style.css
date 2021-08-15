@@ -54,10 +54,21 @@ h6 {
 }
 body {
     background: url(BG.gif) no-repeat center center fixed;
+    background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    -webkit-animation-name: reset, fade-in;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: reset, fade-in;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-iteration-count: 1;
 }
 #iconspam{
     margin-left: 1.50%;
@@ -98,3 +109,49 @@ a:visited, a:hover {
 text-decoration: none;
 color: #c60b0b;
 }
+@-webkit-keyframes reset {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+    }
+     
+    @-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+    
+    /* MOZILLA */
+    
+    @-moz-keyframes reset {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+    }
+     
+    @-moz-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
